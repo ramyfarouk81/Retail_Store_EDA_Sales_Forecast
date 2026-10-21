@@ -1,0 +1,27 @@
+# Data — never push large binary files
+data/*.ftr
+data/*.xlsx
+data/*.xls
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Plots (regenerated) — remove these lines if you WANT plots on GitHub
+# plots/*.png
+# plots/*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
